@@ -1,0 +1,41 @@
+.containerHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: $d-grey;
+  margin: 0;
+  padding: 0;
+}
+
+.containerPresentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcomeHi{
+    color: $l-grey;
+}
+
+.containerLogoAndText{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 60vh;
+}
+
+
+.img{
+
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border: 2px solid white;
+}
+.img2{
+    height: 45vh;
+}

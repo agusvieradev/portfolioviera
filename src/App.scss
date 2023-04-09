@@ -1,0 +1,33 @@
+@import "./styles/variables/colors";
+@import "./styles/variables/fonts";
+@import "./components/navbar/navbar";
+@import "./components/home/home";
+@import "./components/form/contactMe";
+
+@font-face {
+  font-family: $genFont;
+  src: url("./assets/fonts/GlacialIndifference-Regular.otf") format("opentype");
+}
+
+:root {
+  font-family: $genFont !important;
+}
+
+.App {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: $d-grey;
+    font-family: $genFont !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#home {
+  width: 445px;
+}
